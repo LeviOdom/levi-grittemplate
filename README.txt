@@ -1,3 +1,7 @@
+Proto-personal website for resume/CV, portfolio, and blog. From template created by designseer.com (https://designseer.com/themes/grit/).
+
+Original Readme:
+----------------------------------------------------------
 # grit-html
 HTML version of Grit
 Designed by Dcrazed.com
