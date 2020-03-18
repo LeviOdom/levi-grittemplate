@@ -1,4 +1,4 @@
-Proto-personal website for resume/CV, portfolio, and blog. From template created by designseer.com (https://designseer.com/themes/grit/).
+Proto-personal website for resume/CV, portfolio, and blog. From template created by designseer.com (https://designseer.com/themes/grit/).  Modified by Levi Odom.
 
 Original Readme:
 ----------------------------------------------------------
