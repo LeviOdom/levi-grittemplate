@@ -35,6 +35,10 @@ $(window).load(function() {
   equalheight('.eq-blocks');
 });
 
+/*$(window).onload(function() {
+
+});*/
+
 
 $(window).resize(function(){
   equalheight('.eq-blocks');

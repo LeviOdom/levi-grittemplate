@@ -194,6 +194,11 @@ pre {
     border-radius: 5px;
     background-color: #1f1f1f;
 }
+
+#location {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+}
 /* 2.2 Navigation*/
 
 
@@ -290,7 +295,7 @@ a.navbar-brand:hover span {
 }
 .nav-view {
 	transition: .5s ease-in-out;
-	width: 80% !important;
+	width: 40% !important;
 	display:inline-block;
 }
 #nav-top {
@@ -2589,7 +2594,7 @@ ul.about-features li {
 	padding-left: 12%;
 	margin-bottom: 75px;
 	max-width: 420px;
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 ul.about-features li:nth-child(odd) {
 	margin-right: 12%;
@@ -2605,9 +2610,10 @@ ul.about-features li h5 {
 	font-size: 18px;
 	margin-bottom: 30px;
 }
-ul.about-features li p {
+/*ul.about-features li p {
 	color: #6f6f6f;
-}
+} */
+
 ul.about-features li:hover i {
 	color: #ff5959;
 	transition: all .6s;
@@ -3148,10 +3154,10 @@ ul.about-features li:hover i {
 	font-family: 'PT Serif', serif;
 	font-size: 16px;
 	line-height: 1.8;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 }
 .page h1 {
-	margin-bottom: 48px;
+	/*margin-bottom: 48px;*/
 	font-size: 42px;
 	font-weight: 700;
 	color: #404040;
@@ -3159,7 +3165,7 @@ ul.about-features li:hover i {
 }
 .page h3 {
 	font-weight: 500;
-	margin-bottom: 45px;
+	/*margin-bottom: 45px;*/
 }
 .page h5 {
 	font-weight: 700;
@@ -3574,6 +3580,12 @@ blockquote p {
 #page-body {
 	padding: 80px 0 100px;
 }
+
+#page-body span {
+	font-style: italic;
+	font-size: 18px;
+}
+
 #page-body .page-body-a {
 	padding: 12px 50px;
 	font-size: 11px;
