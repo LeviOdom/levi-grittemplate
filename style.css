@@ -195,10 +195,6 @@ pre {
     background-color: #1f1f1f;
 }
 
-#location {
-	font-family: 'Montserrat', sans-serif;
-	font-style: italic;
-}
 /* 2.2 Navigation*/
 
 
@@ -2934,6 +2930,7 @@ ul.about-features li:hover i {
 	font-size: 42px;
 	color: #3c434d;
 	font-weight: 600;
+	text-align: center;
 }
 #process-block .process-content p {
 	color: #6f6f6f;
@@ -3821,6 +3818,45 @@ to {
 .page-share li .fa.fa-linkedin {
 	background: #34465d;
 }
+
+#page-body #contact-page h2 > span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+} 
+
+#page-body #contact-page p {
+	margin-bottom: 32px;
+	font-size: 18px;
+}
+
+#location {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+}
+
+.page h1.contact-page {
+	text-align: center;
+}
+
+ul.dashed {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.dashed > li {
+	margin-left: 30px;
+	font-size: 25px;
+	margin-left: 100px;  
+}
+
+/* Prevent nested li's from getting messed up */
+ul.dashed > li::before {
+    content: "-";
+    margin-left: -15px;
+}
+
+
 /*Woocommerce product page*/
 
 
